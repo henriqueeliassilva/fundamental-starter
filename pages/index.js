@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
   <h1>👋 Olá, seja bem vindo.</h1>
-  <p>Starter utilizando Next.js + TailwindCSS and Typography.
+  <p>Starter utilizando Next.js + TailwindCSS e Typography.
         </p>
     </>
     </Layout>
