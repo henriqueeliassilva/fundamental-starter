@@ -13,12 +13,11 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Next.js Web App!"
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header>
       <nav>
   <div className="max-w-6xl mx-auto">
     <div className="flex justify-between">
@@ -35,7 +34,7 @@ export default function Layout({ children, home }) {
       </div>
       <div className="flex items-center space-x-4 m-2">
         <Link href="/">
-          <a className=" text-gray-700 hover:text-gray-900 hover:underline">Home</a>
+          <a className="text-gray-700 hover:text-gray-900 hover:underline">Home</a>
         </Link>
         <Link href="/about">
           <a className="text-gray-700 hover:text-gray-900 hover:underline">About</a>
@@ -43,16 +42,17 @@ export default function Layout({ children, home }) {
       </div>
     </div>
   </div>
-</nav>
-      </header>
-      <main>
-      <div className="px-4 py-10 max-w-3xl mx-auto sm:px-6 sm:py-12 lg:max-w-4xl lg:py-16 lg:px-8 xl:max-w-6xl">
-<div className="prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-autoprose lg:prose-xl">
+</nav> 
+        <div className="w-full flex flex-col flex-grow px-5">
+          <div>
+          <main className="mx-auto max-w-screen-md lg:mt-14 md:mt-8 mt-3">
+          <article className="prose dark:prose-dark sm:prose-lg lg:prose-xl mt-5 max-w-none">
           {children}
-          </div>
-      </div>
+          </article>
           </main>
-     
+          </div>
+          </div>
+
     </div>
   )
 }

@@ -10,9 +10,8 @@ export default function Home() {
       <title>{siteTitle}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-  <h1>👋 Olá, seja bem vindo.</h1>
-  <p>Starter utilizando Next.js + TailwindCSS e Typography.
-        </p>
+  <h1>👋 Hello!</h1>
+   <p>I build Websites, Web Apps and connect technologies to help companies to grow.</p>  
     </>
     </Layout>
   )
