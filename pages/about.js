@@ -8,8 +8,8 @@ export default function About () {
     <Head>
       <title>About page</title>
     </Head>
-    <h1>I'm Henrique</h1>
-   <p>Italian Brazilian Web Designer and Front-End Web Developer.</p>
+    <h1>We are Fundamental</h1>
+   <p>We build ....</p>
   </Layout>
   )
 }

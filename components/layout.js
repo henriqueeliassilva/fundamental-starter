@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import avatar from '../public/avatar.png'
+import avatar from '../public/plus.svg'
 
 
 export const siteTitle = 'Starter Next + TailwindCSS e Typography'
@@ -23,11 +23,11 @@ export default function Layout({ children, home }) {
     <div className="flex justify-between">
       <div className="flex space-x-4">
         <div className="flex items-center text-gray-700">
-          <a href="/" className="flex items-center py-2 px-2">
-          <Image src={avatar} className="rounded-full"
+          <a href="/" className="flex items-center py-4 px-2">
+          <Image src={avatar} 
               alt="Profile"
-              width={70}
-              height={70}
+              width={50}
+              height={50}
         />
           </a>
         </div>
@@ -43,16 +43,15 @@ export default function Layout({ children, home }) {
     </div>
   </div>
 </nav> 
-        <div className="w-full flex flex-col flex-grow px-5">
+    <div className="w-full flex flex-col flex-grow px-5">
           <div>
-          <main className="mx-auto max-w-screen-md lg:mt-14 md:mt-8 mt-3">
-          <article className="prose dark:prose-dark sm:prose-lg lg:prose-xl mt-5 max-w-none">
-          {children}
-          </article>
-          </main>
-          </div>
-          </div>
-
+            <main className="mx-auto max-w-screen-md lg:mt-14 md:mt-8 mt-3">
+              <article className="prose dark:prose-dark sm:prose-lg lg:prose-xl mt-5 max-w-none">
+                {children}
+              </article>
+            </main>
+         </div>
+        </div>
     </div>
   )
 }
