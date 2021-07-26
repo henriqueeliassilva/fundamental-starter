@@ -4,12 +4,12 @@ import Layout from '../components/layout'
 
 export default function About () {
   return (
-    <Layout>
+  <Layout>
     <Head>
-      <title>About page</title>
+        <title>About page</title>
     </Head>
-    <h1>We are Fundamental</h1>
-   <p>We build ....</p>
+       <h1>We are Fundamental</h1>
+       <p>We build ....</p>
   </Layout>
   )
 }
