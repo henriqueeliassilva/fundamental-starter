@@ -9,7 +9,7 @@ export default function About () {
         <title>About page</title>
     </Head>
        <h1>We are Fundamental</h1>
-       <p>We build ....</p>
+       <p>This project was built with top technologies in the market.</p>
   </Layout>
   )
 }
